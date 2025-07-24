@@ -1,4 +1,5 @@
 import logo from '../assets/logo.jpg'
+import Button from './UI/Button'
 
 export default function Header() {
     return (
@@ -8,7 +9,7 @@ export default function Header() {
                 <h1>老爹快餐店</h1>
             </div>
             <nav>
-                <button>已选</button>　　　　　　　　
+                <Button textOnly>已选</Button>　　　　　　　　
             </nav>
         </header>
     );
